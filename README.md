@@ -1,10 +1,9 @@
 # MPU6050 IMU Visualization Test for NodeMCU V2
-Project to visualize the accelerometer and gyroscope readings of the MPU6050 sensor under the presence of its built-in Digital Motion Processor(DMP) with the NodeMCU V2(ESP8266) as a host. The project is based on the [i2cdev library](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino) by Jeff Rowberg. The project also contains the Processing sketch to visualize a model that constantly updates itself based on the quaternions received by the MPU6050's FIFO. 
+Project to visualize the accelerometer and gyroscope readings of the MPU6050 sensor under the presence of its built-in Digital Motion Processor(DMP) with the NodeMCU V2(ESP8266) as a host. The project is based on the [i2cdev library](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino) by Jeff Rowberg & [toxiclibs](https://github.com/postspectacular/toxiclibs/releases/tag/0021). The project also contains the Processing sketch to visualize a model that constantly updates itself based on the quaternions received by the MPU6050's FIFO. 
 
 ## Software Required
 1. [PlatformIO](https://platformio.org/) Extension on VSCode.
 1. [Processing](https://processing.org/download).
-1. [Toxiclibs](https://github.com/postspectacular/toxiclibs/releases/tag/0021)
 
 ## Hardware Connections
 1. The MPU6050's VCC and GND pins have been connected to the 3.3v and GND pins of the NodeMCU.
