@@ -153,7 +153,7 @@ uint8_t teapotPacket[14] = { '$', 0x02, 0,0, 0,0, 0,0, 0,0, 0x00, 0x00, '\r', '\
 // ================================================================
 
 volatile bool mpuInterrupt = false;     // indicates whether MPU interrupt pin has gone high
-void dmpDataReady() {
+void IRAM_ATTR dmpDataReady() {
     mpuInterrupt = true;
 }
 
