@@ -25,6 +25,8 @@ Now if you run the code on your board again you should get more accurate values 
 ## Visualization
 The values produced by the IMU can be graphically visualized in the Processing environment by running the [.pde file](processing/MPUTeapot/MPUTeapot.pde) in the processing folder on Processing.
 
+This repository also contains another [demo](processing/MPUHumanArm/MPUHumanArm.pde) based on the original processing sketch for visualization which can be used to visualize movements of the arm in a scenario where the MPU6050 is mounted on the arm. The arm attached to the human body animation can be used to visualize roll and pitch movements.
+
 The visualization demo also depends on toxiclibs which should be added in the libraries folder of the folder where your Processing is installed.
 
 Windows users need to set the correct serial port by commenting out:
